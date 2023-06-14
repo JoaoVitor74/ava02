@@ -1,0 +1,258 @@
+html {
+    background-color: #f8f7f6;
+    font-family:Arial, Helvetica, sans-serif;
+    min-width: 1000px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.site-largura {
+    min-width: 1000px;
+    padding: 0em;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.laranja {
+    color: #f35926;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.amarelo {
+    color: #fcb929;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.verde {
+    color: #00b049;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.viagens {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-superior {
+    bottom: 15px;
+    text-align: start;
+    top: 10px;
+    left: 240px;
+    position: relative;
+}
+
+.menu {
+    color: black;
+    background-color: white;
+    text-align: right;
+    word-spacing: 3em;
+
+}
+
+.links {
+    display: inline-flex;
+    gap: 50px;
+    right: 120px;
+    position: relative;
+    bottom: 10px;
+
+}
+
+header {
+    background-image: url(../img/barcos.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 13em;
+    width: 100%;
+
+}
+
+header .caixa {
+    width: fit-content;
+	margin: -85px auto 2rem;
+	padding: 2rem;
+	border: 1px solid #edf2f9;
+	border-radius: 10px;
+	background: white;
+
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.caixas {
+    display: inline-flex;  
+    margin-right: 10px;
+    margin-left: 5px;  
+}
+
+input {
+    font-size: 20px;
+    padding: 10px 8px;
+    
+}
+
+button {
+    font-size: 20px;
+    background-color: #ea3d35;
+    color: white;
+    border:#ea3d35;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.principal {
+    margin-left: 260px;
+    margin-top: 1em;
+    
+}
+
+.card {
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+    width: 78%;
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-left: 210px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    align-items: center;
+    margin-right: 210px;
+    justify-content: center;
+}
+
+.rj {
+    padding: 70px 54px;
+	border-radius: 15px;
+    background-image: url(../img/rio.webp);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 525px 307px;
+}
+
+.bonito {
+    padding: 70px 54px;
+	border-radius: 15px;
+    background-image: url(../img/bonito.webp);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 525px 307px;
+
+}
+
+.sp {
+    padding: 70px 54px;
+	border-radius: 15px;
+    background-image: url(../img/sao-paulo.webp);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 525px 307px;
+
+}
+
+.foz {
+    padding: 70px 54px;
+	border-radius: 15px;
+    background-image: url(../img/foz.webp);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 525px 307px;
+}
+
+.maceio {
+    padding: 70px 54px;
+	border-radius: 15px;
+    background-image: url(../img/maceio.webp);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 525px 307px;
+}
+
+.salvador {
+    padding: 70px 54px;
+	border-radius: 15px;
+    background-image: url(../img/salvador.webp);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 525px 307px;
+}
+
+.fortal {
+    padding: 70px 54px;
+	border-radius: 15px;
+    background-image: url(../img/fortaleza.webp);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 525px 307px;
+}
+
+.bh {
+    padding: 70px 54px;
+	border-radius: 15px;
+    background-image: url(../img/belo-horizonte.webp);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: 525px 307px;
+}
+
+.cards {
+    display: grid;
+    row-gap: 30px;
+    align-items: center;
+    
+}
+
+.vermais {
+   width: 200px;
+   height: 40px;
+   background-color: white;
+   color: black;
+   font-weight: normal;
+   border-radius: 20px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 1px 1px black;
+    
+}
+
+.cidades {
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 1.75em;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.preco {
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 1px black;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+
+
+
+
